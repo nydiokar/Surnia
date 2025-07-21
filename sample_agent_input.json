@@ -1,0 +1,125 @@
+{
+  "wallet_address": "7G8x9vQ2kL3p4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h",
+  "summary": {
+    "status": "ok",
+    "is_favorite": false,
+    "total_pnl": 15.2,
+    "win_rate": 62.5,
+    "total_volume": 120.0,
+    "days_active": 38,
+    "last_active_timestamp": 1712345678,
+    "behavior_classification": "unknown",
+    "classification": "normal"
+  },
+  "pnl_overview": {
+    "realized_pnl": 15.2,
+    "swap_win_rate": 62.5,
+    "win_loss_count": "10/16 wins",
+    "avg_pl_trade": 0.95,
+    "total_volume": 120.0,
+    "total_sol_spent": 90.0,
+    "total_sol_received": 105.2,
+    "median_pl_token": 0.7,
+    "token_win_rate": 58.0,
+    "weighted_efficiency_score": 0.68
+  },
+  "behavior": {
+    "trading_style": null,
+    "confidence_score": 0.85,
+    "buy_sell_ratio": 1.2,
+    "flipper_score": 0.5,
+    "unique_tokens_traded": 12,
+    "total_trade_count": 28,
+    "trading_frequency": {
+      "trades_per_day": 1.8,
+      "trades_per_week": 12.6,
+      "trades_per_month": 50
+    },
+    "token_preferences": {
+      "mostTradedTokens": [
+        {"mint": "So11111111111111111111111111111111111111112", "count": 8, "total_value": 4.2, "first_seen": 1700000000, "last_seen": 1712000000},
+        {"mint": "USDC111111111111111111111111111111111111111", "count": 5, "total_value": 2.1, "first_seen": 1701000000, "last_seen": 1712100000},
+        {"mint": "BTC1111111111111111111111111111111111111111", "count": 3, "total_value": 1.5, "first_seen": 1702000000, "last_seen": 1712200000}
+      ],
+      "mostHeld": [
+        {"mint": "So11111111111111111111111111111111111111112", "count": 4, "total_value": 2.0, "first_seen": 1700000000, "last_seen": 1712000000},
+        {"mint": "USDC111111111111111111111111111111111111111", "count": 2, "total_value": 1.0, "first_seen": 1701000000, "last_seen": 1712100000},
+        {"mint": "BTC1111111111111111111111111111111111111111", "count": 1, "total_value": 0.5, "first_seen": 1702000000, "last_seen": 1712200000}
+      ]
+    },
+    "risk_metrics": {
+      "average_transaction_value_sol": 0.6,
+      "largest_transaction_value_sol": 2.3
+    },
+    "percent_of_value_in_current_holdings": 0.55
+  },
+  "token_performance": [
+    {
+      "token_address": "So11111111111111111111111111111111111111112",
+      "name": "Solana",
+      "symbol": "SOL",
+      "total_amount_in": 100,
+      "total_amount_out": 80,
+      "net_amount_change": 20,
+      "total_sol_spent": 50,
+      "total_sol_received": 60,
+      "net_sol_profit_loss": 10,
+      "current_ui_balance": 20,
+      "current_holdings_value_usd": 400,
+      "realized_pnl_sol": 8,
+      "unrealized_pnl_usd": 2,
+      "price_usd": "20"
+    },
+    {
+      "token_address": "USDC111111111111111111111111111111111111111",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "total_amount_in": 200,
+      "total_amount_out": 180,
+      "net_amount_change": 20,
+      "total_sol_spent": 30,
+      "total_sol_received": 35,
+      "net_sol_profit_loss": 5,
+      "current_ui_balance": 20,
+      "current_holdings_value_usd": 20,
+      "realized_pnl_sol": 4,
+      "unrealized_pnl_usd": 1,
+      "price_usd": "1"
+    },
+    {
+      "token_address": "BTC1111111111111111111111111111111111111111",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "total_amount_in": 10,
+      "total_amount_out": 8,
+      "net_amount_change": 2,
+      "total_sol_spent": 10,
+      "total_sol_received": 12,
+      "net_sol_profit_loss": 2,
+      "current_ui_balance": 2,
+      "current_holdings_value_usd": 120,
+      "realized_pnl_sol": 1.5,
+      "unrealized_pnl_usd": 0.5,
+      "price_usd": "60"
+    }
+  ],
+  "similarity": {
+    "pairwise_similarities": [
+      {
+        "wallet_a": "7G8x9vQ2kL3p4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h",
+        "wallet_b": "9Z8y7x6w5v4u3t2s1r0q9p8o7n6m5l4k3j2h1g0f9e8d",
+        "binary_score": 0.78,
+        "capital_score": 0.65,
+        "shared_tokens": [
+          {"mint": "So11111111111111111111111111111111111111112"},
+          {"mint": "USDC111111111111111111111111111111111111111"}
+        ]
+      }
+    ],
+    "unique_tokens_per_wallet": {
+      "7G8x9vQ2kL3p4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h": 12,
+      "9Z8y7x6w5v4u3t2s1r0q9p8o7n6m5l4k3j2h1g0f9e8d": 10
+    }
+  },
+  "instruction": "Provide a comprehensive summary of this wallet's trading activity, performance, and any notable behavioral or risk patterns."
+} 

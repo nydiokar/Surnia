@@ -1,0 +1,12 @@
+[project]
+name = "wallet-agent-analysis"
+description = "LLM-powered Solana wallet analysis agent with Jupyter prototyping."
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+requests = "*"
+openai = "*"
+pydantic = "*"
+jupyter = "*"
+httpx = "*" 
