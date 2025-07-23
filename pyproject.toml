@@ -2,11 +2,23 @@
 name = "wallet-agent-analysis"
 description = "LLM-powered Solana wallet analysis agent with Jupyter prototyping."
 version = "0.1.0"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "openai", 
+    "pydantic",
+    "jupyter",
+    "httpx",
+    "python-dotenv"
+]
 
-[tool.poetry.dependencies]
-python = ">=3.8,<4.0"
-requests = "*"
-openai = "*"
-pydantic = "*"
-jupyter = "*"
-httpx = "*" 
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["*"]
+exclude = ["myenv*", "api_endpoints_extract_from*", "notebook*", "docs*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.py"] 
