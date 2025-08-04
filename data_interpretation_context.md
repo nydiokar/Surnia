@@ -33,7 +33,7 @@ This document provides critical context for interpreting wallet analysis data to
 - **< 0.5**: Imbalanced - either accumulator or distributor tendencies
 
 ### 2. **Sequence Consistency** (`sequence_consistency`) 
-- **Range**: 0.0 - 1.0
+- **Range**: 0.0 - 1.0 (this might be wrong we currently have over 1)
 - **Meaning**: How often buys are followed by sells (FIFO pairs)
 - **0.7+**: Consistent flip patterns
 - **< 0.5**: Inconsistent - many incomplete sequences
